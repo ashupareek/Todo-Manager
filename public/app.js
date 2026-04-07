@@ -11,6 +11,7 @@ const state = {
 const authCard = document.getElementById("auth-card");
 const appCard = document.getElementById("app-card");
 const feedback = document.getElementById("feedback");
+const topSignup = document.getElementById("top-signup");
 const loginTab = document.getElementById("login-tab");
 const signupTab = document.getElementById("signup-tab");
 const authForm = document.getElementById("auth-form");
@@ -171,6 +172,7 @@ async function loadLists() {
 
 loginTab.addEventListener("click", () => setAuthMode("login"));
 signupTab.addEventListener("click", () => setAuthMode("signup"));
+topSignup.addEventListener("click", () => setAuthMode("signup"));
 
 authForm.addEventListener("submit", async (event) => {
   event.preventDefault();
