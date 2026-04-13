@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Todo Manager Mobile",
+    "slug": "todo-manager-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {},
+    "web": {},
+    "extra": {
+      "apiBaseUrl": "http://localhost:3000/api"
+    }
+  }
+}
